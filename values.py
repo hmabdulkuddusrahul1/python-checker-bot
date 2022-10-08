@@ -49,7 +49,7 @@ maindb = client.bot['main']
 
 antidb = redis.Redis(host='redis-14357.c10.us-east-1-3.ec2.cloud.redislabs.com', port=14357, password='kj7vhhGIfroT2YZkFPTeWF2Muac6QUIh')
 
-BOT_USERNAME = 'BOT_USERNAME'
+BOT_USERNAME = 'B'
 loggp = -1001169633337
 waste_cards = [1,2,7,8,9,0]
 banned_bins = open('files/bannedbin.txt', 'r').readlines()
@@ -62,17 +62,17 @@ buy_premium = """<b>Take Paid Plan To Use Me In Private Mode. Hit /buy To See My
 free_user = """<b>buy paid plan to use this gate hit /buy to see my premium plans</b>"""
 
 
-# arr = [
-#     'http://copunwcs-rotate:zpxyewfj84cp@p.webshare.io:80/',
-#     'http://juigtril-rotate:7iwuusjuufgp@p.webshare.io:80/',
+arr = [
+'http://copunwcs-rotate:zpxyewfj84cp@p.webshare.io:80/',
+'http://juigtril-rotate:7iwuusjuufgp@p.webshare.io:80/',
 #     'http://bfpiydpo-rotate:jommyvzkwcdl@p.webshare.io:80/',
 #     'http://vctalybl-rotate:9bs22acxfssz@p.webshare.io:80/',
 #     'http://tnfpjnnj-rotate:9krjtv3qgzmo@p.webshare.io:80/',
 #     'http://tnfpjnnj-rotate:9krjtv3qgzmo@p.webshare.io:80/']
-# proxy = random.choice(arr)
-# proxies = { 'http' : proxy, 'https' : proxy}
-# curl =  requests.Session()
-# curl.proxies = proxies
+proxy = random.choice(arr)
+proxies = { 'http' : proxy, 'https' : proxy}
+curl =  requests.Session()
+curl.proxies = proxies
 
 
 # res = requests.get("https://randomuser.me/api/?nat=us&inc=name,location")
