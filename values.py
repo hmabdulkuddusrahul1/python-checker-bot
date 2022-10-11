@@ -43,7 +43,7 @@ import bs4
 import json
 
 
-mongourl = 'mongodb+srv://xenpai:xenpai@cluster0.a316al8.mongodb.net/?retryWrites=true&w=majority'
+mongourl = 'mongodb+srv://tgnwebot:tgnwebot@cluster0.ctpxfgt.mongodb.net/?retryWrites=true&w=majority'
 client = pymongo.MongoClient(mongourl,serverSelectionTimeoutMS=5000)
 maindb = client.bot['main']
 
