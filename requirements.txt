@@ -1,4 +1,4 @@
-pyrogram==1.4
+pyrogram
 tgcrypto
 pymongo
 telegraph
@@ -7,3 +7,4 @@ dnspython
 pymongo[srv]
 requests
 bs4
+defs
