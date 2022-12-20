@@ -19,7 +19,7 @@ bot = Client(
     'bot',
     api_id= 10464138,
     api_hash="4185aaae27c0ee23420255f2627ddb5f",
-    bot_token="5672156760:AAEijwkcAlbbmXHmmxxew4P86pjj2whS-q8",
+    bot_token="5672156760:AAEaT4fcM3AyklDCueACLuWsEcSfqB53IQ0",
     plugins=dict(root="plugins"),
     parse_mode="html")
 
